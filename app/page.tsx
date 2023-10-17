@@ -1,10 +1,9 @@
-
+import "./page.module.css"
 
 export default function Home() {
   return (
     <main >
       <div>
-        asdasd
       </div>
     </main>
   )

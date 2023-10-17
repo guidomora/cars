@@ -13,7 +13,6 @@ const Header = () => {
           <Button variant="outlined" sx={{color:"secondary.main", ml:5, mr:5, textTransform:"none"}}>Contactanos!</Button>
           <Typography color={"primary.main"} ml={5} mr={5}>loguito</Typography>
         </Box>
-
       </Box>
     </Grid>
   )
