@@ -23,7 +23,6 @@ export default function RootLayout({
       <ThemeRegistry>
         <body >
           <Header/>
-          <Portada />
           {children}
         </body>
       </ThemeRegistry>
