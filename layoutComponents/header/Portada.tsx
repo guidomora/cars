@@ -13,7 +13,7 @@ const Portada = () => {
         <Typography variant={"h2"} fontSize={50} color={"primary.main"} fontWeight={500}>0Km. y usados</Typography>
         <Button variant="contained" sx={{textTransform:'none', backgroundColor:'secondary.main', mt:3}}>Compra tu auto</Button>
       </Box>
-      <Box p={5} >
+      <Box p={5} sx={{display:{xs:'none', sm:'unset'}}}>
         <Image src={autos} alt={'Portada de autos'} width={800} />
       </Box>
     </Grid>

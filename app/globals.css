@@ -1,3 +1,36 @@
 .degradado {
   background: linear-gradient(45deg, black 50%, grey 100%);
 }
+
+.wpp {
+  font-size: 45px;
+  color: #25d366;
+}
+
+.location {
+  font-size: 45px;
+  color: #b90c0c;
+}
+
+.wppFooter {
+  font-size: 20px;
+  color: #ffc300
+}
+
+.locationFooter {
+  font-size: 25px;
+  color: #ffc300
+}
+
+.fiesta {
+  height: 300px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .fiesta {
+    width: 380px;
+    height: 180px;
+  }
+}
