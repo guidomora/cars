@@ -22,11 +22,13 @@ export default function RootLayout({
     <html lang="en">
       <ThemeRegistry>
         <body >
-          <Header/>
-          {children}
+          <Header />
+          <main>
+            {children}
+          </main>
           <footer>
-          <FooterLayout/>
-        </footer>
+            <FooterLayout />
+          </footer>
         </body>
       </ThemeRegistry>
     </html>

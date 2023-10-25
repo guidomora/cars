@@ -13,7 +13,7 @@ const MainBody = () => {
                 </Box>
                 <Box display={'flex'} flexDirection={'column'} p={3} sx={{alignItems:{xs:'center', sm:'unset'}, textAlign:{xs:'center', sm:'unset'}}}>
                     <Typography fontWeight={500} variant='h3'>Podés dejar tu usado en parte de pago <br /> y llevarte uno de nuestro catálogo</Typography>
-                    <Typography mt={3} fontSize={27} color='grey'>Realizamos la inspección y en el mismo día <br /> te llevas el auto que más te guste.</Typography>
+                    <Typography mt={3} fontSize={27} color='#888'>Realizamos la inspección y en el mismo día <br /> te llevas el auto que más te guste.</Typography>
                     <Button variant="contained" sx={{ textTransform: 'none', width: 150, mt: 3, backgroundColor: "secondary.main" }}>Vende tu auto</Button>
                 </Box>
             </Grid>

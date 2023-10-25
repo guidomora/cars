@@ -1,8 +1,14 @@
+import SearchFilter from '@/components/SearchFilter/SearchFilter'
+import CarCards from '@/components/cards/carCard'
+import { Grid } from '@mui/material'
 import React from 'react'
 
 const Catalogo = () => {
   return (
-    <div>catalogo</div>
+    <Grid display={'flex'}>
+      <SearchFilter />
+      <CarCards />
+    </Grid>
   )
 }
 
