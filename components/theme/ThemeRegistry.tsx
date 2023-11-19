@@ -5,6 +5,7 @@ import { createTheme, ThemeOptions } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Poppins } from 'next/font/google';
 
+
 const poppins = Poppins({
     weight: ["300", "400", "500", "600", "700", ],
     subsets:['latin']
@@ -21,7 +22,7 @@ const themeOptions: ThemeOptions = {
     },
     typography: {
         fontFamily: poppins.style.fontFamily,
-    },
+    }
 }
 
 const theme = createTheme(themeOptions)
