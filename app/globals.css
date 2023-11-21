@@ -30,6 +30,10 @@ main {
   min-height: calc(100vh - 100px);
 }
 
+.MuiSelect-select {
+  padding:  0.3rem !important;
+}
+
 
 @media only screen and (max-width: 767px) {
   .fiesta {
