@@ -74,4 +74,4 @@ const SearchFilter = () => {
   )
 }
 
-export default SearchFilter
+export default SearchFilter 
